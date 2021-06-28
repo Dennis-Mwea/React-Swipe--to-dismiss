@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.swipeItem {
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  outline: 1px solid black;
+}
+
+.swipeItem-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.swipeList {
+  list-style-type: none;
+}
+
+.swipeList-addButton {
+  font-size: 30px;
+  text-align: center;
+  width: 350px;
+  height: 65px;
+  padding: auto;
+  background-color: white;
+  border: none;
+  outline: 1px solid black;
+}
